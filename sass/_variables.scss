@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+
+/****
+color
+****/
+$gray-base:            #000;
+$gray-darker:          lighten($gray-base, 13.5%); // #222
+$gray-dark:            lighten($gray-base, 20%); // #333
+$gray:                 lighten($gray-base, 33.5%); // #555
+$gray-light:           lighten($gray-base, 46.7%); // #777
+$gray-lighter:         lighten($gray-base, 93.5%); // #eee
+$gray-none:            lighten($gray-base, 100%); // #fff
+$gray-main:            #182942;
+
+
+
+$brand-primary:        #c13032 !default;
+$brand-success:        #5cb85c !default;
+$brand-info:           #5bc0de !default;
+$brand-warning:        #f0ad4e !default;
+$brand-danger:         #e63a3a !default;
+
+$font-color-base:      #fff;
+
+$link-color:           #4d555d !default;
+$link-hover-color:     $brand-primary;
+
+$menu-pramary:         #ff6b0b !default;
+$header-line-bg:       #00a98e;
+
+$content-header-bg-1:  #182942;
+$content-header-bg-2:  #1281ab;
+$content-header-bg-3:  #00a98e;
+$content-header-bg-4:  #3f3f3f;
+$content-header-bg-5:  #ff812f;
+
+$content-bg-1:         #e5e5e5;
+$content-bg-2:         #dcecf2;
+$content-bg-3:         #e5e5e5;
+$content-bg-4:         #e8e8e8;
+$content-bg-5:         #e5e5e5;
+
+
+$border-darker:        lighten($gray-base, 13.5%); // #222
+$border-dark:          lighten($gray-base, 20%); // #333
+$border-light:         lighten($gray-base, 46.7%); // #777
+$border:               #adadad;
+$border-lighter:       lighten($gray-base, 93.5%); // #eee
+$border-none:          lighten($gray-base, 100%); // #fff
+
+
+$border-primary:       $brand-primary;
+$border-success:       $brand-success;
+$border-info:          $brand-info;
+$border-warning:       $brand-warning;
+$border-danger:        $brand-danger;
+
+
+
+$bg-base:              $gray-main;
+$bg-primary:           $brand-primary;
+$bg-success:           $brand-success;
+$bg-info:              $brand-info;
+$bg-warning:           $brand-warning;
+$bg-danger:            $brand-danger;
+$bg-none:              transparent;
+$bg-dark:              #262a32;
+$bg-darker:            #1c1f23;
+$bg-light:             #f2f2f2;
+
+$text-decortaion:      none;
+
+
+$base-font:14px;
+$base-line:1.2;
+$h1-size:30px;
+$h2-size:40px;
+$h3-size:20px;
+$h4-size:18px;
+$h5-size:16px;
+$h6-size:14px;
+
+
+
+
+$btn-font:                       18px !default;
+$btn-font-weight:                normal !default;
+$btn-border-width:               0 !default;
+$btn-border-width-base:          $btn-border-width;
+$btn-font-size:                  $btn-font;
+$btn-font-size-min:              14px;
+$btn-default-color:              #333 !default;
+$btn-default-bg:                 #fff !default;
+$btn-default-border:             #ccc !default;
+
+
+
+$btn-primary-color:              #fff !default;
+$btn-primary-color-hover:        #fff !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-bg-hover:           darken($btn-primary-bg, 10%) !default;
+$btn-primary-border:             darken($btn-primary-bg, 15%) !default;
+
+
+
+$btn-success-color:              #fff !default;
+$btn-success-color-hover:        #fff !default;
+$btn-success-bg:                 $brand-success !default;
+$btn-success-bg-hover:           darken($btn-success-bg, 10%) !default;
+$btn-success-border:             darken($btn-success-bg, 15%) !default;
+
+
+
+$btn-info-color:                 #fff !default;
+$btn-info-color-hover:           #fff !default;
+$btn-info-bg:                    $brand-info !default;
+$btn-info-bg-hover:              darken($btn-info-bg, 10%) !default;
+$btn-info-border:                darken($btn-info-bg, 15%) !default;
+
+$btn-warning-color:              #fff !default;
+$btn-warning-color-hover:        #fff !default;
+$btn-warning-bg:                 $brand-warning !default;
+$btn-warning-bg-hover:           darken($btn-warning-bg, 10%) !default;
+$btn-warning-border:             darken($btn-warning-bg, 15%) !default;
+
+$btn-danger-color:               #fff !default;
+$btn-danger-color-hover:         #fff !default;
+$btn-danger-bg:                  $brand-danger !default;
+$btn-danger-bg-hover:            darken($btn-danger-bg, 10%) !default;
+$btn-danger-border:              darken($btn-danger-bg, 15%) !default;
+
+$btn-link-disabled-color:        $gray-light !default;
+
+
+/*new font size*/
+$news-title-font: 19px !default;
+$news-content-font: 14px !default;
+
+/*footer color*/
+$footer-bg: #ff812f !default;
+
+/*global*/
+$font-family:'Microsoft Yahei','宋体',arial,sans-serif;
+$box-size:border-box;
+$base-container:1000px;
+
