@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/WebstormProjects/cctv2/wuxian/.idea/wuxian.iml" filepath="$USER_HOME$/WebstormProjects/cctv2/wuxian/.idea/wuxian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/.idea/hulianwangjinrong.iml" filepath="$PROJECT_DIR$/../../cctv2/huliangwangjinrong/.idea/hulianwangjinrong.iml" />
     </modules>
   </component>
 </project>
