@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="page-wrap hydh">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="互联网金融观察"/></a>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">首页</a></li>
+                        <li>
+                            <a href="xwzx.html">新闻资讯</a>
+                        </li>
+                        <li>
+                            <a href="">栏目视听</a>
+                        </li>
+                        <li>
+                            <a href="">行业对话</a>
+                        </li>
+                        <li>
+                            <a href="">精彩活动</a>
+                        </li>
+                        <li>
+                            <a href="">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="">关于合作</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="content content-crumbs">
+        <div class="container">
+            <div class="sub-content-view clearFix">
+                <div class="crumbs">
+                    <ul>
+                        <li>首页</li>
+                        <li><span><</span>行业对话</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content clearFix">
+        <div class="container">
+            <div class="sub-content-view clearFix">
+                <div class="sub-page-title">
+                    <span>行业对话</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content clearFix">
+        <div class="container">
+            <div class="sub-content-view clearFix">
+                <div class="video-content-list">
+                    <div class="video-show">
+                        <EMBED height=370 type=application/x-shockwave-flash align=middle width=700 src=http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzExODY0NDQw=&isAutoPlay=False&isShowRelatedVideo=false&embedid=-&showAd=0></EMBED>
+                    </div>
+                    <p>视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述</p>
+                </div>
+                <div class="video-content-list">
+                    <div class="video-show">
+                        <EMBED height=370 type=application/x-shockwave-flash align=middle width=700 src=http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzExODY0NDQw=&isAutoPlay=False&isShowRelatedVideo=false&embedid=-&showAd=0></EMBED>
+                    </div>
+                    <p>视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述</p>
+                </div>
+                <div class="video-content-list">
+                    <div class="video-show">
+                        <EMBED height=370 type=application/x-shockwave-flash align=middle width=700 src=http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzExODY0NDQw=&isAutoPlay=False&isShowRelatedVideo=false&embedid=-&showAd=0></EMBED>
+                    </div>
+                    <p>视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述视频描述</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="sub-content-view clearFix">
+                <div class="pagination">
+                    <a href="javascript:void(0);"><</a>
+                    <a href="javascript:void(0);">1</a>
+                    <a href="javascript:void(0);">2</a>
+                    <a href="javascript:void(0);">3</a>
+                    <a href="javascript:void(0);">></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright-box">
+            <div class="container">
+                <p class="copyright">WIT B2B服务平台  沪ICP备10200728号  Copyright  2012-2015 51helpdesk.com 版权所有</p>
+                <p class="copyright">北京伍贤信息技术有限公司全资运营网站</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $('.news-slider-list').bxSlider({
+        mode: 'fade',
+        captions: true,
+        auto: true,
+        onSlideAfter: function(e, x){
+            // do mind-blowing JS stuff here
+            if(x === 5){
+                x = -1;
+            }
+            $(".news-list-list").find("li a.active").removeClass("active");
+            $(".news-list-list").find("li:eq("+(x+1)+") a").addClass("active");
+        }
+    });
+</script>
+</body>
+</html>

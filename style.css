@@ -1345,4 +1345,18 @@ a.cd-read-more:hover {
     .side-nav li.active a {
       color: #35A7DE; }
 
+/*hydh.html*/
+.video-content-list {
+  width: 700px;
+  margin: 0 auto 40px; }
+  .video-content-list p {
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 16px; }
+
+.hydh .sub-page-title {
+  text-align: center; }
+  .hydh .sub-page-title span {
+    border-color: #36ACA3; }
+
 /*# sourceMappingURL=style.css.map */

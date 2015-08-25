@@ -1463,3 +1463,25 @@ footer{
 }
 
 @import "lmst";
+
+
+/*hydh.html*/
+.video-content-list{
+  width: 700px;
+  margin: 0 auto 40px;
+  p{
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 16px;
+  }
+}
+
+.hydh{
+  .sub-page-title{
+    text-align: center;
+    span{
+      border-color: #36ACA3;
+    }
+
+  }
+}
