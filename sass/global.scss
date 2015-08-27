@@ -1606,3 +1606,76 @@ footer{
     line-height: 20px;
   }
 }
+
+.partner-box{
+  width: 33.3%;
+  float: left;
+  margin: 20px 0;
+}
+
+.aboutpartner-box{
+  width: 50%;
+  float: left;
+  padding: 10px 5px;
+}
+.aboutpartner-desc{
+  p{
+    font-size: 22px;
+    line-height: 40px;
+  }
+  padding-bottom: 30px;
+  border-bottom: dashed 1px;
+}
+
+.tv-box {
+  h2{
+    font-size: 36px;
+    color: #E13600;
+    padding: 20px 0 0 0;
+  }
+  .tv-logo-box {
+    width: 14.28%;
+    float: left;
+    vertical-align: middle;
+    height: 123px;
+    display: table;
+    span {
+      display: table-cell;
+      height: 100%;
+      vertical-align: middle;
+      img {
+        vertical-align: middle;
+      }
+    }
+
+  }
+  .video-logo-box{
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+    display: table;
+    height: 123px;
+    span {
+      display: table-cell;
+      height: 100%;
+      vertical-align: middle;
+      padding: 0 20px;
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+  .guanming-box{
+    width: 50%;
+    float: left;
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+}
+.contactus-desc{
+  margin: 20px 0 40px 0;
+  p{
+    font-size: 22px;
+    line-height: 50px;
+  }
+}

@@ -1452,4 +1452,62 @@ a.cd-read-more:hover {
     font-size: 14px;
     line-height: 20px; }
 
+.partner-box {
+  width: 33.3%;
+  float: left;
+  margin: 20px 0; }
+
+.aboutpartner-box {
+  width: 50%;
+  float: left;
+  padding: 10px 5px; }
+
+.aboutpartner-desc {
+  padding-bottom: 30px;
+  border-bottom: dashed 1px; }
+  .aboutpartner-desc p {
+    font-size: 22px;
+    line-height: 40px; }
+
+.tv-box h2 {
+  font-size: 36px;
+  color: #E13600;
+  padding: 20px 0 0 0; }
+.tv-box .tv-logo-box {
+  width: 14.28%;
+  float: left;
+  vertical-align: middle;
+  height: 123px;
+  display: table; }
+  .tv-box .tv-logo-box span {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle; }
+    .tv-box .tv-logo-box span img {
+      vertical-align: middle; }
+.tv-box .video-logo-box {
+  width: 20%;
+  float: left;
+  vertical-align: middle;
+  display: table;
+  height: 123px; }
+  .tv-box .video-logo-box span {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 20px; }
+    .tv-box .video-logo-box span img {
+      vertical-align: middle; }
+.tv-box .guanming-box {
+  width: 50%;
+  float: left;
+  padding: 10px 10px;
+  margin-top: 10px; }
+
+.contactus-desc {
+  margin: 20px 0 40px 0; }
+  .contactus-desc p {
+    font-size: 22px;
+    line-height: 50px; }
+
 /*# sourceMappingURL=style.css.map */
