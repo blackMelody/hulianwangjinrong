@@ -127,6 +127,12 @@ h6 {
       float: left; }
       .content-crumbs .crumbs ul li span {
         margin: 0 5px; }
+      .content-crumbs .crumbs ul li.third-level {
+        width: 150px;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
 
 /********
 *btn*
@@ -1538,5 +1544,18 @@ a.cd-read-more:hover {
   line-height: 50px;
   font-size: 18px;
   color: #0061AD; }
+
+.video-big {
+  margin: 50px 0; }
+
+.bottom-desc {
+  text-align: center; }
+  .bottom-desc p:first-child {
+    font-size: 46px;
+    color: #5B1A18; }
+  .bottom-desc p:last-child {
+    font-size: 36px;
+    color: #403E40;
+    margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

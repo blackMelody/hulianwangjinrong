@@ -84,6 +84,13 @@ h6{
         span{
           margin: 0 5px;
         }
+        &.third-level{
+          width: 150px;
+          overflow: hidden;
+          -ms-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
       }
     }
   }
@@ -1723,4 +1730,21 @@ footer{
   line-height: 50px;
   font-size: 18px;
   color: #0061AD;
+}
+
+.video-big{
+  margin: 50px 0;
+}
+
+.bottom-desc{
+  text-align: center;
+  p:first-child{
+    font-size: 46px;
+    color: #5B1A18;
+  }
+  p:last-child{
+    font-size: 36px;
+    color: #403E40;
+    margin-top: 20px;
+  }
 }
