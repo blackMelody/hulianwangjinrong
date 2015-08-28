@@ -1534,4 +1534,9 @@ a.cd-read-more:hover {
       font-size: 18px;
       margin-bottom: 5px; }
 
+.news-sub-content-title {
+  line-height: 50px;
+  font-size: 18px;
+  color: #0061AD; }
+
 /*# sourceMappingURL=style.css.map */
