@@ -1510,4 +1510,28 @@ a.cd-read-more:hover {
     font-size: 22px;
     line-height: 50px; }
 
+.postion_section {
+  padding: 40px 0;
+  border-top: dashed 1px; }
+  .postion_section:first-child {
+    border-top: 0;
+    padding-left: 10px; }
+  .postion_section .position_name h3 {
+    font-size: 24px; }
+  .postion_section .position_desc {
+    margin-top: 20px; }
+  .postion_section .position_request {
+    margin-top: 40px; }
+  .postion_section .pos_title {
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px; }
+  .postion_section .pos_desc ol {
+    padding-left: 20px; }
+    .postion_section .pos_desc ol li {
+      line-height: 30px;
+      list-style: decimal;
+      font-size: 18px;
+      margin-bottom: 5px; }
+
 /*# sourceMappingURL=style.css.map */

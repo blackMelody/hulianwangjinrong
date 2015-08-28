@@ -1679,3 +1679,38 @@ footer{
     line-height: 50px;
   }
 }
+.postion_section{
+  padding: 40px 0;
+  border-top: dashed 1px;
+  &:first-child{
+    border-top: 0;
+    padding-left: 10px;
+  }
+  .position_name{
+    h3{
+      font-size: 24px;
+    }
+  }
+  .position_desc{
+    margin-top: 20px;
+  }
+  .position_request{
+    margin-top: 40px;
+  }
+  .pos_title{
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .pos_desc{
+    ol{
+      padding-left: 20px;
+      li{
+        line-height: 30px;
+        list-style: decimal;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
