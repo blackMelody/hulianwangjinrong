@@ -451,6 +451,16 @@ header {
         .content .content-body .content-view .news-list > ul > li > ul li span {
           width: 80px;
           float: right; }
+  .content .content-body .newsWraper .news-images-list-slider {
+    width: 530px;
+    padding: 10px;
+    height: 430px; }
+    .content .content-body .newsWraper .news-images-list-slider p {
+      line-height: 40px;
+      background-color: #182942;
+      color: #fff;
+      font-size: 20px;
+      text-align: center; }
   .content .content-body .newsWraper .news-img-link {
     width: 530px;
     padding: 10px;
@@ -463,6 +473,10 @@ header {
       text-align: center; }
   .content .content-body .newsWraper ul {
     width: 300px; }
+    .content .content-body .newsWraper ul li.active {
+      color: #c13032; }
+      .content .content-body .newsWraper ul li.active a {
+        color: #c13032; }
     .content .content-body .newsWraper ul li h4 {
       padding: 15px 0;
       border-top: 1px dotted;

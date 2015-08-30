@@ -510,6 +510,18 @@ header{
       }
     }
     .newsWraper{
+      .news-images-list-slider{
+        width: 530px;
+        padding: 10px;
+        height: 430px;
+        p{
+          line-height: 40px;
+          background-color: $bg-base;
+          color:$font-color-base;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
       .news-img-link{
         width: 530px;
         padding: 10px;
@@ -525,6 +537,12 @@ header{
       ul{
         width: 300px;
         li{
+          &.active{
+            a{
+              color: $brand-primary;
+            }
+            color: $brand-primary;
+          }
           h4{
             padding:15px 0;
             border-top: 1px dotted;
