@@ -24,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -46,7 +46,7 @@
       <file leaf-file-name="hydh.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hydh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7917261">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -56,7 +56,7 @@
       <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/sass/global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-429.11765">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1459" column="46" selection-start-line="1459" selection-start-column="46" selection-end-line="1459" selection-end-column="46" />
               <folding />
             </state>
@@ -66,7 +66,7 @@
       <file leaf-file-name="jchd.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/jchd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-67.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="108" column="14" selection-start-line="47" selection-start-column="4" selection-end-line="108" selection-end-column="14" />
               <folding />
             </state>
@@ -174,8 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,6 +194,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,7 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="5958" selection-start-line="3" selection-start-column="5943" selection-end-line="3" selection-end-column="5958" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,7 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="4049" selection-start-line="3" selection-start-column="4049" selection-end-line="3" selection-end-column="4065" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,7 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="4049" selection-start-line="3" selection-start-column="4049" selection-end-line="3" selection-end-column="4065" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,13 +548,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
@@ -602,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="5958" selection-start-line="3" selection-start-column="5943" selection-end-line="3" selection-end-column="5958" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/sass/global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-429.11765">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1459" column="46" selection-start-line="1459" selection-start-column="46" selection-end-line="1459" selection-end-column="46" />
           <folding />
         </state>
@@ -660,13 +656,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../cctv2/huliangwangjinrong/jchd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-67.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="108" column="14" selection-start-line="47" selection-start-column="4" selection-end-line="108" selection-end-column="14" />
           <folding />
         </state>
@@ -676,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66333807">
           <caret line="109" column="0" selection-start-line="47" selection-start-column="4" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hydh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7917261">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
