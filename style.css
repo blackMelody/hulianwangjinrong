@@ -277,8 +277,12 @@ header {
 
 /*banner*/
 .banner {
-  background: url("images/banner.jpg") no-repeat top center;
+  background-image: url("images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #221128;
   height: 590px;
+  max-height: 590px;
   background-size: cover;
   position: relative; }
   .banner .text {
@@ -1586,6 +1590,9 @@ a.cd-read-more:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 0; }
+  .custom-bx-sliders .bx-wrapper .bx-caption {
+    background-color: #182942;
+    opacity: 0.75; }
 .custom-bx-sliders .bx-wrapper .bx-pager {
   bottom: 45px;
   color: #ffffff; }
