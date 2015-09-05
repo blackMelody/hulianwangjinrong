@@ -74,6 +74,20 @@ a{
         right: 80px;
       }
     }
+    ul{
+      li{
+        display: table;
+        a{
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          img{
+            vertical-align: middle;
+          }
+        }
+        height: 80px;
+      }
+    }
   }
   .partners-wraper-normal{
     text-align: center;
@@ -89,6 +103,7 @@ a{
       li{
         width: 110px;
         float: left;
+        height: 80px;
       }
     }
   }

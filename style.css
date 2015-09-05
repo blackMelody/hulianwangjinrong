@@ -116,6 +116,15 @@ a {
         right: 115px; }
       .container .partners-wraper .control-btn.control-right-btn {
         right: 80px; }
+    .container .partners-wraper ul li {
+      display: table;
+      height: 80px; }
+      .container .partners-wraper ul li a {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle; }
+        .container .partners-wraper ul li a img {
+          vertical-align: middle; }
   .container .partners-wraper-normal {
     text-align: center; }
     .container .partners-wraper-normal:after {
@@ -128,7 +137,8 @@ a {
       display: inline-block; }
       .container .partners-wraper-normal ul li {
         width: 110px;
-        float: left; }
+        float: left;
+        height: 80px; }
 
 h1 {
   font-size: 30px; }
