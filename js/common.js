@@ -70,7 +70,7 @@ if(jQuery)(function($){
         $(window).scroll(function(){
             var sh = $(window).scrollTop();
 
-            console.log($(window).scrollTop())
+            //console.log($(window).scrollTop())
             //console.log($(window).height())
             //console.log($(document).height())
 
@@ -87,6 +87,7 @@ if(jQuery)(function($){
 
         })
 
+        $(".partners-slider-list li").autoIMG();
 
   })
 		

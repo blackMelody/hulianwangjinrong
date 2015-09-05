@@ -275,11 +275,13 @@ header{
 
 
 /*banner*/
+.bannerWraper{
+  background-color: #221128;
+}
 .banner{
   background-image:url("images/banner.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  background-color: #221128;
   height:590px;
   max-height: 590px;
   background-size:cover;
@@ -1798,6 +1800,7 @@ footer{
   .bx-wrapper .bx-pager{
     bottom: 45px;
     color: #ffffff;
+
   }
   .bx-wrapper .bx-pager.bx-default-pager a{
     background: inherit;
